@@ -1,0 +1,46 @@
+{
+  "base_url": "https://quotes.toscrape.com",
+  "pages_scraped": 1,
+  "total_time": 2.1,
+  "depth": 1,
+  "max_pages": 3,
+  "pages": [
+    {
+      "url": "https://quotes.toscrape.com",
+      "title": "Quotes to Scrape",
+      "headings": [
+        "Quotes to Scrape",
+        "Top Ten tags"
+      ],
+      "paragraphs": [
+        "Quotes by: GoodReads.com"
+      ],
+      "links": [
+        {
+          "url": "https://www.goodreads.com/quotes",
+          "text": "GoodReads.com"
+        },
+        {
+          "url": "https://www.zyte.com",
+          "text": "Zyte"
+        }
+      ],
+      "images": [],
+      "meta": {},
+      "content_length": 11021,
+      "headings_count": 2,
+      "paragraphs_count": 1,
+      "links_count": 2,
+      "images_count": 0,
+      "scraped_at": "2025-08-01T13:10:03.003753"
+    }
+  ],
+  "summary": {
+    "total_headings": 2,
+    "total_paragraphs": 1,
+    "total_links": 2,
+    "total_images": 0,
+    "total_content_length": 11021
+  },
+  "scraped_at": "2025-08-01T13:10:03.009421"
+}

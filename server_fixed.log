@@ -1,0 +1,53 @@
+INFO:     Started server process [12132]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('0.0.0.0/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:318: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat(),
+INFO:     127.0.0.1:55826 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55853 - "GET /health HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:337: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  "request": request.dict()
+INFO:     127.0.0.1:55916 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:__main__:Enhanced scraping task task_1754139333_-319040848680314697 completed
+INFO:     127.0.0.1:56296 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:__main__:Enhanced scraping task task_1754139407_-4843980408097970836 completed
+INFO:     127.0.0.1:56348 - "GET /task/task_1754139333_-319040848680314697 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56466 - "GET /task/task_1754139407_-4843980408097970836 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56535 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56564 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:__main__:Enhanced scraping task task_1754139440_-247133168238556157 completed
+INFO:__main__:Enhanced scraping task task_1754139438_-7971256318048293456 completed
+INFO:     127.0.0.1:56638 - "GET /task/task_1754139440_-247133168238556157 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56668 - "GET /task/task_1754139438_-7971256318048293456 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56731 - "OPTIONS /scrape-enhanced HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56759 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56800 - "GET / HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:233: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "created_at": datetime.utcnow().isoformat(),
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:234: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  "request": request.dict()
+INFO:     127.0.0.1:57015 - "POST /scrape HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57021 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57023 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57027 - "OPTIONS /scrape-enhanced HTTP/1.1" 405 Method Not Allowed
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:160: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at": datetime.utcnow().isoformat()
+INFO:__main__:Enhanced scraping task task_1754139518_-3887990969622677012 completed
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:220: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at": datetime.utcnow().isoformat()
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:269: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "completed_at": datetime.utcnow().isoformat()
+INFO:__main__:Scraping task task_1754139518_-9200906406957619020 completed successfully
+INFO:     127.0.0.1:57139 - "OPTIONS /scrape-enhanced HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57139 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:enhanced_scraper:Redirected from https://www.freecodecamp.org/news/web-scraping-google-sheets/ to https://www.freecodecamp.org/news/web-scraping-google-sheets
+INFO:__main__:Enhanced scraping task task_1754139540_7588150757665224549 completed
+INFO:     127.0.0.1:57183 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:enhanced_scraper:Redirected from https://www.freecodecamp.org/news/web-scraping-google-sheets/ to https://www.freecodecamp.org/news/web-scraping-google-sheets
+INFO:__main__:Enhanced scraping task task_1754139549_-779035944025933317 completed
+INFO:     127.0.0.1:58282 - "GET /%5D HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58282 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61122 - "OPTIONS /scrape-enhanced HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61257 - "OPTIONS /scrape HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:64627 - "OPTIONS /scrape HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:64627 - "OPTIONS /scrape HTTP/1.1" 400 Bad Request

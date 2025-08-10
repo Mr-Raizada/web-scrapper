@@ -1,0 +1,43 @@
+{
+  "base_url": "https://example.com",
+  "pages_scraped": 1,
+  "total_time": 1.66,
+  "depth": 1,
+  "max_pages": 5,
+  "pages": [
+    {
+      "url": "https://example.com",
+      "title": "Example Domain",
+      "headings": [
+        "Example Domain"
+      ],
+      "paragraphs": [
+        "This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission."
+      ],
+      "links": [
+        {
+          "url": "https://www.iana.org/domains/example",
+          "text": "More information..."
+        }
+      ],
+      "images": [],
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "content_length": 1256,
+      "headings_count": 1,
+      "paragraphs_count": 1,
+      "links_count": 1,
+      "images_count": 0,
+      "scraped_at": "2025-08-01T13:09:50.659260"
+    }
+  ],
+  "summary": {
+    "total_headings": 1,
+    "total_paragraphs": 1,
+    "total_links": 1,
+    "total_images": 0,
+    "total_content_length": 1256
+  },
+  "scraped_at": "2025-08-01T13:09:50.665962"
+}

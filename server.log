@@ -1,0 +1,79 @@
+INFO:     Started server process [2603]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:291: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat(),
+INFO:     127.0.0.1:59427 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET / HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:206: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "created_at": datetime.utcnow().isoformat(),
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:207: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  "request": request.dict()
+INFO:     127.0.0.1:59477 - "POST /scrape HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:133: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at": datetime.utcnow().isoformat()
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:193: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at": datetime.utcnow().isoformat()
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:242: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "completed_at": datetime.utcnow().isoformat()
+INFO:__main__:Scraping task task_1754076955_-9207539526467897910 completed successfully
+INFO:     127.0.0.1:59507 - "GET /task/task_1754076955_-9207539526467897910 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59718 - "OPTIONS /scrape HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59773 - "POST /scrape HTTP/1.1" 200 OK
+INFO:__main__:Scraping task task_1754077357_-7168380226469197689 completed successfully
+INFO:     127.0.0.1:59800 - "GET /task/task_1754077357_-7168380226469197689 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59840 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59850 - "GET /tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59889 - "POST /scrape-enhanced HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59950 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59950 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60127 - "OPTIONS /scrape HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60127 - "POST /scrape HTTP/1.1" 200 OK
+INFO:__main__:Scraping task task_1754077723_-6915095721969714738 completed successfully
+INFO:     127.0.0.1:60127 - "GET /task/task_1754077723_-6915095721969714738 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60127 - "GET /result/task_1754077723_-6915095721969714738 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60132 - "POST /scrape HTTP/1.1" 200 OK
+INFO:__main__:Scraping task task_1754077731_3390618932178233981 completed successfully
+INFO:     127.0.0.1:60136 - "GET /task/task_1754077731_3390618932178233981 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60136 - "GET /result/task_1754077731_3390618932178233981 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60267 - "POST /scrape HTTP/1.1" 200 OK
+INFO:__main__:Scraping task task_1754077783_-7394301408971802741 completed successfully
+INFO:     127.0.0.1:60271 - "GET /task/task_1754077783_-7394301408971802741 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60271 - "GET /result/task_1754077783_-7394301408971802741 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60431 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60432 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60434 - "GET /api/analytics/visualization/task_status_pie HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60435 - "GET /api/health/detailed HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60435 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60434 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60432 - "GET /api/analytics/visualization/task_status_pie HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60431 - "GET /api/health/detailed HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60443 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60467 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60468 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60474 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60519 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60520 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60557 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60562 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60563 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60565 - "GET /api/health/detailed HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60596 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60626 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60627 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60654 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60696 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60697 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60721 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60743 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60745 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60746 - "GET /api/health/detailed HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60748 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60792 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60793 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60817 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2603]

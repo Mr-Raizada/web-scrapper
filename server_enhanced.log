@@ -1,0 +1,57 @@
+INFO:     Started server process [6072]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:303: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat(),
+INFO:     127.0.0.1:61253 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61279 - "GET / HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:319: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  "request": request.dict()
+INFO:     127.0.0.1:61302 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:__main__:Enhanced scraping task task_1754078046_6347930996250108905 completed
+INFO:     127.0.0.1:61331 - "GET /task/task_1754078046_6347930996250108905 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:__main__:Enhanced scraping task task_1754078066_-1043883204968245136 completed
+INFO:     127.0.0.1:61407 - "GET /task/task_1754078066_-1043883204968245136 HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:218: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "created_at": datetime.utcnow().isoformat(),
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:219: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  "request": request.dict()
+INFO:     127.0.0.1:61452 - "POST /scrape HTTP/1.1" 200 OK
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:145: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at": datetime.utcnow().isoformat()
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:205: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "scraped_at": datetime.utcnow().isoformat()
+/Users/xora-dev-1/web-scrapper/backend/src/test_api.py:254: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "completed_at": datetime.utcnow().isoformat()
+INFO:__main__:Scraping task task_1754078088_-6267609048037797831 completed successfully
+INFO:     127.0.0.1:61507 - "GET /task/task_1754078088_-6267609048037797831 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61596 - "GET /task/task_1754078046_6347930996250108905 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /api/metrics/system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61623 - "GET /api/metrics/performance HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61627 - "GET /api/analytics/visualization/task_status_pie HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61631 - "GET /api/health/detailed HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61649 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+WARNING:enhanced_scraper:Client error for https://nonexistent-website-12345.com/: Cannot connect to host nonexistent-website-12345.com:443 ssl:default [nodename nor servname provided, or not known], retrying...
+INFO:__main__:Enhanced scraping task task_1754078187_6179416350990522487 completed
+INFO:     127.0.0.1:61716 - "GET /task/task_1754078187_6179416350990522487 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "POST /scrape HTTP/1.1" 200 OK
+INFO:__main__:Scraping task task_1754078214_-9007840014129795168 completed successfully
+INFO:     127.0.0.1:61785 - "GET /task/task_1754078214_-9007840014129795168 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /result/task_1754078214_-9007840014129795168 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "OPTIONS /scrape-enhanced HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:enhanced_scraper:Redirected from https://www.freecodecamp.org/news/web-scraping-google-sheets/ to https://www.freecodecamp.org/news/web-scraping-google-sheets
+INFO:__main__:Enhanced scraping task task_1754078225_-3909403652323517372 completed
+INFO:     127.0.0.1:61823 - "POST /scrape-enhanced HTTP/1.1" 200 OK
+INFO:enhanced_scraper:Redirected from https://www.freecodecamp.org/news/web-scraping-google-sheets/ to https://www.freecodecamp.org/news/web-scraping-google-sheets
+INFO:__main__:Enhanced scraping task task_1754078229_2738350634323944739 completed
+INFO:     127.0.0.1:61893 - "POST /scrape HTTP/1.1" 200 OK
+INFO:__main__:Scraping task task_1754078315_-7846752091030696104 completed successfully
+INFO:     127.0.0.1:61893 - "GET /task/task_1754078315_-7846752091030696104 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61893 - "GET /result/task_1754078315_-7846752091030696104 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6072]
